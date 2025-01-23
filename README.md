@@ -1,39 +1,21 @@
-# password
-GitHub Pages などの静的サイトのホスティングサービスで擬似的にパスワード認証をつけるものです。
+# ARCACLAVIS NEXT
+# 製品概要
+- 「ARCACLAVIS NEXT」（アルカクラヴィス ネクスト）は、パスワードによる認証にICカード認証や顔認証などの生体認証を組み合わせた多要素認証（二要素認証）により、多くの情報を扱うコンピューター利用時の確実な本人認証を実現し、なりすまし、不正行為、情報漏えいを防ぐための認証強化を行うことができるセキュリティ製品です。
+- 一台のPCを共有アカウントで利用される環境にて「職員はICカード認証、臨時職員は顔認証で利用」といった認証方法の使い分けや、「認証ログによる実際の端末利用者の特定」を実現し、共有アカウント環境での本人認証の強化と柔軟性を可能にします。
 
-## DEMO
-[リンク](https://higurashi-takuto.github.io/password/)
+  - [製品ページ](https://www.ryobi.co.jp/security/arcaclavis-next)
 
-※パスワードは `password` です。
+# 製品のダウンロード
+- 以下のリンクから最新版をダウンロードしてください。
+  
+  - [ダウンロード](https://github.com/ss-dev-release/product/releases)
+    
+- 本製品をダウンロードした場合、以下ソフトウェア使用許諾に合意したとみなされます
 
-## ファイル
-- index.html  
-パスワード入力画面です。  
-[サンプル](https://higurashi-takuto.github.io/password/)
+  - [ソフトウェア使用許諾](https://github.com/ss-dev-release/product/blob/main/License.txt)
 
-- check.html  
-認証に使用するハッシュ値を確認するためのページです。  
-[サンプル](https://higurashi-takuto.github.io/password/check.html)
 
-- style.css  
-スタイルシートで `index.html` / `check.html` 共通のものです。
-
-- padlock.svg  
-ファビコン用画像です。ダークモード対応しています。
-
-- sha256.js  
-SHA-256 を使用するためのライブラリです。
-[jsSHA](https://github.com/Caligatio/jsSHA) を利用しています。
-
-- 5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8/  
-パスワード突破後にアクセスされるディレクトリです。
-
-## 使い方 / 仕組み
-ハッシュ化されたパスワードをそのままディレクトリ名に利用し、URL の存在の有無で認証を行なっています。
-
-この方法のデメリットとして URL が知られる / ディレクトリリストが取得される という方法によっても突破されてしまうため、URL の共有やサーバの設定に注意しましょう。
-
-ハッシュ化には SHA-256 を使用しており、入力に対するハッシュ値の確認には [check.html](https://higurashi-takuto.github.io/password/check.html) が利用できます。ここで取得できるハッシュ値をディレクトリ名に付けましょう。
-
-## 参考リポジトリ
-[matteobrusa / Password-protection-for-static-pages](https://github.com/matteobrusa/Password-protection-for-static-pages)
+# ARCACLAVISシリーズについて  
+- ARCACLAVISシリーズは1998年より開発・販売を続ける信頼のセキュリティ製品です。
+- 官公庁、自治体、金融、生保など多くのお客様に導入されており、トータル120万ライセンスの販売実績があります。
+- 自社/国内で開発・サポートを行っており、あらゆるお客様のニーズに応える運用性と信頼性を提供しております。
