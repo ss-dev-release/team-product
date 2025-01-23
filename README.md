@@ -8,11 +8,11 @@
 # 製品のダウンロード
 - 以下のリンクから最新版をダウンロードしてください。
   
-  - [ダウンロード](https://github.com/ss-dev-release/product/releases)
+  - [ダウンロード](https://github.com/ss-dev-release/team-product/releases)
     
 - 本製品をダウンロードした場合、以下ソフトウェア使用許諾に合意したとみなされます
 
-  - [ソフトウェア使用許諾](https://github.com/ss-dev-release/product/blob/main/License.txt)
+  - [ソフトウェア使用許諾](https://github.com/ss-dev-release/team-product/blob/main/License.txt)
 
 
 # ARCACLAVISシリーズについて  
